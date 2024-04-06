@@ -19,9 +19,6 @@ Welcome to my CS50W Projects repository! Here, you'll find the projects I've com
 - **Description:** A Wikipedia-like online encyclopedia. Users can create, edit, and view wiki pages. Built using Django.
 - **Link:** [Wikipedia Clone](https://github.com/Abeehimr/CS50W_Projects/tree/main/wiki)
 
-## Usage
-
-Each project directory contains its own README with instructions on how to set up and run the project locally.
 
 ## License
 
