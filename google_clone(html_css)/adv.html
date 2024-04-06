@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <title>advance Search</title>
+        <style>
+            #google_logo{
+                font-family: Product Sans ;
+                text-align: center;
+                font-size: xx-large;
+                color: blue;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            #img{
+                font-family: Product Sans ;
+                width: 200px;
+                text-align: right;
+                font-size: small;
+                color: red;
+                margin-top: 0px;
+            }
+            #form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .search{
+                border-radius: 10px;
+                border-width: 1px;
+                border-color: black;
+                background-color: whitesmoke;
+                color: black;
+                width: 300px;
+                padding: 5px 10px 5px 10px;
+            }
+            .sub{
+                border-radius: 5px;
+                border-width: 1px;
+                background-color: #4d90fe;
+                color: white;
+                border-color: #3079ed;
+                margin: 10px;
+                padding: 7px;
+            }
+            .sub:hover{
+                cursor: pointer;
+            }
+            #tg{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .tb{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 10px 10px 10px 10px;
+            }
+            .txt{
+                width: 200px;
+            }
+            #butt{
+                width: 542px;
+                text-align: end;
+            }
+        </style>
+    </head>
+    <body style="background-color: whitesmoke;">
+        <div>
+            <a href="./index.html" style="color: black;">Google Search</a>
+        </div>
+        <div id ="tg">
+            <h1 id = "google_logo">Google</h1>
+            <h6 id = "img">Advanced Search</h6>
+        </div>
+        <form id = "form" action="https://www.google.com/search">
+
+            <div class = "tb">
+                <div class="txt">all  these words:</div>
+                <input class = "search" type="text" name="as_q">
+            </div>
+
+            <div class = "tb">
+                <div class="txt">this exact word or phrase:</div>
+                <input class = "search" type="text" name="as_epq">
+            </div>
+            <div class = "tb">
+                <div class="txt">any of these words:</div>
+                <input class = "search" type="text" name="as_oq">
+            </div>
+            <div class = "tb">
+                <div class="txt">none of these words:</div>
+                <input class = "search" type="text" name="as_eq">
+            </div>
+            <div id = "butt">
+                <input class = "sub" type="submit" value="Advanced Search">
+            </div>
+            
+        </form>
+    </body>
+</html>

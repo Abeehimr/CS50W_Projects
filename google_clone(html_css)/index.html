@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <title>Search</title>
+        <style>
+            #google_logo{
+                font-family: Product Sans ;
+                text-align: center;
+                font-size: xx-large;
+                color: white;
+            }
+            #form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .search{
+                border-radius: 10px;
+                border-width: 1px;
+                border-color: wheat;
+                background-color: #202124;
+                color: white;
+                width: 300px;
+                padding: 0px 10px 0px 10px;
+            }
+            .search:hover{
+                background-color: #5f6368;
+                border-color: #5f6368;
+
+            }
+            .sub{
+                border-radius: 3px;
+                border-width: 1px;
+                background-color: #5f6368;
+                color: white;
+                border: #5f6368;
+                margin: 10px;
+                padding: 5px;
+            }
+            .sub:hover{
+                border-color: wheat;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body style="background-color: #202124;">
+        <div>
+            <a href="./img.html" style="color: white; padding-right: 50px;">Google Image Search</a>
+            <a href="./adv.html" style="color: white;">Google Advanced Search</a>
+        </div>
+        <h1 id = "google_logo">Google</h1>
+        <form id = "form" action="https://www.google.com/search">
+            <input class = "search" type="text" name="q">
+            <div style="display: flex;">
+                <input class = "sub" type="submit" value="Google Search">
+                <input class = "sub" type="submit" name="btnI" value="I'm Feeling Lucky">
+            </div>
+        </form>
+    </body>
+</html>
